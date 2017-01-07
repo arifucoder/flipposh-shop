@@ -1,0 +1,96 @@
+/* This CSS for small Mobile*/
+@media (max-width: 767px){
+.main_menu {
+float:left;
+width:100%;
+}
+.nav li a{
+color:#30B7FB;
+}
+.nav li a:hover{
+background:#F6F6F6;
+}
+.navbar-collapse{
+background: none repeat scroll 0 0 #f6f6f6;
+float: left;
+margin-top: 6px;
+}
+.left_flip{
+margin-top:21px;
+}
+.left_l_img{
+clear:both;
+float:left;
+}
+.right_flip_con{
+clear:both;
+display:inline-block;
+margin-left:10px;
+margin-top:-23px;
+width:70%;
+}
+.footer_image_a{
+text-align:center;
+}
+.footer_menu{
+text-align:center;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #fff;
+  border-color: #fff;
+}
+.navbar-nav {
+  margin: 0;
+}
+.footer_area {
+  height: 95px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* This CSS for Tablet */
+@media (min-width: 768px){
+.content_two ul li {
+display: inline-block;
+padding: 0 14px;
+}
+
+
+}
+/* This CSS for Medium Devices */
+@media (min-width: 992px){
+.content_two ul li {
+display: inline-block;
+padding: 0 24px;
+}
+
+
+}
+/* This CSS for Large Devices */
+@media (min-width: 1200px){
+.navbar-collapse {
+  margin-left:70px;
+}
+.content_two ul li {
+display: inline-block;
+padding: 0 30px;
+}
+
+
+
+
+
+}
